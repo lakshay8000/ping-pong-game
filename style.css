@@ -1,0 +1,81 @@
+:root {
+    --lightcoffee: #E3C75F;
+    --dark-green: #005C53;
+    --cream: #D6D58E;
+}
+
+html {
+    box-sizing: border-box;
+    
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #005C53;
+}
+
+#ping-pong-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+h1 {
+    color: var(--cream);
+}
+
+#ping-pong-table {
+    background-image: url("img/ping\ pong\ table\ image.jpg");
+    background-size: contain;
+    border: 2px solid black;
+    height: 25rem;
+    width: 43.75rem;
+    position: relative;
+}
+
+#paddle1 {
+    width: 20px;
+    height: 80px;
+    background-color: var(--lightcoffee);
+    margin-left: 2px;
+    position: absolute;
+}
+
+#paddle2 {
+    width: 20px;
+    height: 80px;
+    background-color: var(--lightcoffee);
+    margin-right: 2px;
+    margin-left: auto;
+    position: relative;
+}
+
+#ball {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#game-over {
+    display: none;
+    font-size: 80px;
+    text-align: center;
+}
+
+@media (max-width : 768px) {
+    #ping-pong-table {
+        max-width: 35rem;
+    }
+}
+
+@media (max-width : 576px) {
+    #ping-pong-table {
+        max-width: 22rem;
+        max-height: 20rem;
+    }
+}
