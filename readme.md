@@ -29,3 +29,8 @@ To run the game locally on your computer or laptop, follow these steps:
 ## Contributing
 
 Contributions are welcome! Whether you want to report a bug, suggest a feature, or submit a pull request, please feel free to do so. Together, we can make this game even better!
+
+
+## LICENSE:
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
